@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.header{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color:rgb(255, 255, 255);
+    justify-content: center;
+    box-shadow:  1px  #a19f9f;
+    border-style: solid;
+    border-color: #e5e5e5;
+    border-width: 3px;
+}
+
+.h-l{
+    width: 90px;
+    height: 50px;
+    margin: 0;
+    background-color:rgb(255 255 255);
+    background-image: url(https://static.leetcode.cn/cn-mono-assets/production/assets/logo-dark-cn.4c5e285b.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.h-m{line-height: 50px;
+    text-indent: 20px;
+    word-spacing: 35px;
+    width: 800px;
+    height: 50px;
+    margin: 0;
+    background-color:rgb(255 255 255);
+}
+
+.dropbtn {
+  background-color: #ffffff;
+  color: gold;
+  padding: 0px;
+  font-size: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: gold;
+  padding: 0;
+  text-decoration: none;
+  display: block;
+
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #ffffff;
+}
+.dropbtn {
+    background-color: #ffffff;
+    color: gold;
+    padding: 0px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  padding
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: gold;
+    padding: 0;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #ffffff;
+  }
+  .h-r{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    margin: 0;
+    background-color: rgb(255 255 255);
+}
+.h-r .hr1{
+    font-size: small;
+    text-align: center;
+    vertical-align: bottom;
+    color: orange;
+width: 80px;
+height: 20px;
+background-color: rgb(224, 224, 224);
+border-radius: 5px;
+}
+.h-r .hr2{
+    font-size: small;
+    color: blue;
+    width: 60px;
+    height: 20px;
+    border-color: blue;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    border-radius: 5px;
+}
+ svg {
+        width: 20px;
+        height: 30px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.h-r span{
+    font-size: small;
+
+}

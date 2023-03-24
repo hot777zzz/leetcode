@@ -1,0 +1,46 @@
+div.search {
+    padding: 0px 0;
+    border-radius: 10px;
+    }
+
+        form {
+            position: relative;
+            width: 250px;
+            margin: 0 auto;
+        }
+
+        input, button {
+            border-radius: 10px;
+            border: none;
+            outline: none;
+        }
+
+        input {
+            width: 250px;
+            height: 42px;
+            padding-left: 13px;
+        }
+
+        .bar3 button {
+            height: 40px;
+            width: 42px;
+            cursor: pointer;
+            position: absolute;
+        }
+        .bar3 {background: #F9F0DA;
+        border-radius: 10px;}
+        .bar3 form {background: #A3D0C3;
+            border-radius: 5px;}
+        .bar3 input, .bar3 button {
+            background: transparent;
+        }
+        .bar3 button {
+            top: 0;
+            right: 0;
+        }
+        .bar3 button:before {
+            content: "\f002";
+            font-family: FontAwesome;
+            font-size: 16px;
+            color: #F9F0DA;
+        }
